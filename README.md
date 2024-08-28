@@ -10,6 +10,13 @@ To install the package, run the following command:
 npm install --save-dev @luccasfr/eslint-config-nextjs
 ```
 
+Install all peer-dependencies:
+```sh
+npm install --save-dev @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-unicorn
+```
+
+ESLint and Next.js are not included in the install script, as it is assumed you are already using Next.js and ESLint.
+
 # Usage
 To use this ESLint configuration in your project, extend it in your .eslintrc file:
 ```json
