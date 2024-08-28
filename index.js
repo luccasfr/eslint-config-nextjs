@@ -23,6 +23,7 @@ module.exports = {
       }
     ],
     "unicorn/prevent-abbreviations": ["off"],
+    "unicorn/no-null": ["off"],
     "@typescript-eslint/no-unused-vars": [
       "error",
       {
