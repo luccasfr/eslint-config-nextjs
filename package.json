@@ -1,6 +1,6 @@
 {
   "name": "@luccasfr/eslint-config-nextjs",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "index.js",
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": ">=8.3.0",

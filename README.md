@@ -7,7 +7,7 @@ This package provides an ESLint configuration for Next.js projects using TypeScr
 To install the package, run the following command:
 
 ```sh
-npm install @luccasfr/eslint-config-nextjs
+npm install --save-dev @luccasfr/eslint-config-nextjs
 ```
 
 # Usage
