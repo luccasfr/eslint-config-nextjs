@@ -19,7 +19,7 @@
     "typescript",
     "react"
   ],
-  "author": "Luccas Ferreira <lucas.ferreira@jerasoft.inf.br>",
+  "author": "Lucas Ferreira <lucas.ferreira@jerasoft.inf.br>",
   "license": "ISC",
   "description": "ESLint configuration for Next.js projects with TypeScript and React",
   "repository": {
