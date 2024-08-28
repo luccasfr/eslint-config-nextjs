@@ -1,0 +1,33 @@
+{
+  "name": "@luccasfr/eslint-config-nextjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": ">=8.3.0",
+    "@typescript-eslint/parser": ">=8.3.0",
+    "eslint": ">=8.57.0",
+    "eslint-plugin-import": ">=2.29.1",
+    "eslint-plugin-react": ">=7.35.0",
+    "eslint-plugin-react-hooks": ">=4.6.2",
+    "eslint-plugin-unicorn": ">=55.0.0",
+    "next": ">=14.2.7"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "nextjs",
+    "typescript",
+    "react"
+  ],
+  "author": "Luccas Ferreira <lucas.ferreira@jerasoft.inf.br>",
+  "license": "ISC",
+  "description": "ESLint configuration for Next.js projects with TypeScript and React",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luccasfr/eslint-config-nextjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/luccasfr/eslint-config-nextjs/issues"
+  },
+  "homepage": "https://github.com/luccasfr/eslint-config-nextjs#readme"
+}
