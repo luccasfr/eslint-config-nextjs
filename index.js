@@ -1,7 +1,6 @@
 // index.js
 module.exports = {
   extends: [
-    "plugin:react-hooks/recommended",
     "next/core-web-vitals",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
