@@ -75,3 +75,18 @@ Lucas Ferreira - lucas.ferreira@jerasoft.inf.br
 
 # License
 This project is licensed under the ISC License.
+## Supported patched Next.js releases
+
+Version 1.1.0 supports Next.js 15.5.29 and later 15.x releases, or 16.4.6 and later 16.x releases. Install the matching `eslint-config-next` version explicitly. The Next.js peer is a compatibility requirement; applications must update their own Next.js runtime and lockfile.
+
+For Next.js 15 with ESLint 8.57.1, keep the legacy `.eslintrc` usage shown above.
+
+For Next.js 16 with ESLint 9, use the flat entry in `eslint.config.mjs`:
+
+```js
+import nextConfig from "@luccasfr/eslint-config-nextjs/flat.mjs";
+
+export default [...nextConfig];
+```
+
+The flat entry preserves the package's custom rules and uses Next.js 16's native flat configuration. Use a Node.js version supported by the selected Next.js release.
